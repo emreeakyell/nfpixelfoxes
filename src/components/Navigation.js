@@ -53,7 +53,6 @@ function Navigation() {
           <MenuItem>Home</MenuItem>
           <MenuItem>About</MenuItem>
           <MenuItem>RoadMap</MenuItem>
-
           <MenuItem>Team</MenuItem>
           <MenuItem>Faq</MenuItem>
         </Menu>

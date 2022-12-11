@@ -4,7 +4,8 @@ import Typewriter from "typewriter-effect";
 import Button from "./Button";
 
 const Title = styled.h1`
-  font-size: ${(props) => props.theme.fontxl};
+  font-size: ${(props) =>
+    props.theme.fontxxl}; //responsiveyi sıkıntıya sokarsa bidaha bak
   text-transform: capitalize;
   width: 80%;
   color: ${(props) => props.theme.text};
@@ -20,7 +21,7 @@ const Title = styled.h1`
 `;
 
 const SubTitle = styled.h3`
-  font-size: ${(props) => props.theme.fontlg};
+  font-size: ${(props) => props.theme.fontxl};
   text-transform: capitalize;
   color: ${(props) => `rgba(${props.theme.textRgba},0.6)`};
   font-weight: 600;
